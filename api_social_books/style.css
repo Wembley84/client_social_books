@@ -1,0 +1,51 @@
+.tabela{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    border: 1px solid black;
+}
+
+.celula{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+.rotulo-coluna{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.header{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+
+    min-height: fit-content;
+    height: 30px;
+}
+
+#idLivro{
+    border:none;
+    border-bottom: 1px solid black;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    font-size: 16px;
+}
+
+input[type=button]{
+    border-radius: 15px;
+    padding: 12px;
+    color: white;
+    background-color: brown;
+    border: none;
+}
+input[type=button]:hover{
+    border: 2px solid chocolate;
+}
